@@ -51,4 +51,5 @@ And below is an example of what a single song file, TRAABJL12903CDCF1A.json, loo
 ## Steps
 Run the scripts in the following order:
 1. Insert AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY into `dl.cfg`
+3. In the main function in `etl.py`, update the `output_data` variable with the filepatth of the storage location
 2. Run `etl.py`
